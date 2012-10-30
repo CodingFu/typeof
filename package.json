@@ -1,0 +1,24 @@
+{
+  "name": "typeof",
+  "version": "1.0.0",
+  "description": "Node module. typeOf('a string') == 'string', typeOf([]) == 'array', etc..",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha -R spec --compilers coffee:coffee-script test.coffee"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/CodingFu/typeof"
+  },
+  "keywords": [
+    "typeof"
+  ],
+
+  "author": "Seva Rybakov",
+  "license": "MIT",
+  "dependencies": {
+    "coffee-script": "~1.4.0",
+    "mocha": "~1.6.0",
+    "assert": "~0.4.9"
+  }
+}
