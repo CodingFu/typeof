@@ -1,6 +1,6 @@
 {
   "name": "typeof",
-  "version": "1.0.0",
+  "version": "0.9.0",
   "description": "Node module. typeOf('a string') == 'string', typeOf([]) == 'array', etc..",
   "main": "index.js",
   "scripts": {
