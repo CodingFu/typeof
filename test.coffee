@@ -37,3 +37,6 @@ describe 'type of', ->
 
   it 'Function should be a "function"', ->
     assert.equal (typeOf (-> false)), "function"
+
+  it 'Buffer should be a "buffer"', ->
+    assert.equal (typeOf new Buffer(0)), "buffer"
