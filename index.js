@@ -7,11 +7,13 @@ module.exports = function(object) {
   if (type === 'undefined') {
     return 'undefined';
   }
-
-  if (type === 'object') {
-    return toString.call(object).slice(8, -1).toLowerCase();
+  
+  if (object) {
+    type = object.constructor.name; 
+  } else if (type === 'object') {
+    type = toString.call(object).slice(8, -1);
   }
 
-  return type;
+  return type.toLowerCase();
 }
 

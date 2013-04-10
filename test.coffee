@@ -37,3 +37,14 @@ describe 'type of', ->
 
   it 'Function should be a "function"', ->
     assert.equal (typeOf (-> false)), "function"
+
+  it 'Buffer should be a "buffer"', ->
+    assert.equal (typeOf new Buffer(0)), "buffer"
+
+  it 'Any "ClassName" instance should be "classname"', ->
+    class ClassName
+      constructor: ->
+
+    klass = new ClassName()
+    assert.equal (typeOf klass), "classname"
+    
