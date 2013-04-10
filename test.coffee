@@ -45,6 +45,6 @@ describe 'type of', ->
     class ClassName
       constructor: ->
 
-    klass = new ClassName()
-    assert.equal (typeOf klass), "classname"
+    obj = new ClassName()
+    asert.equal (typeOf obj), "classname"
     
