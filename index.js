@@ -8,6 +8,9 @@ module.exports = function(object) {
     return 'undefined';
   }
 
+  if (Buffer.isBuffer(object))
+    return 'buffer';
+
   if (type === 'object') {
     return toString.call(object).slice(8, -1).toLowerCase();
   }
