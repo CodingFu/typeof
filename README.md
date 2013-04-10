@@ -1,11 +1,10 @@
 # typeof
 
-small node.js module that extends functionality of native typeof
-inspired by Batman.js typeOf util
+Small node.js module that dramatically extends functionality of native typeof
 
-**-------------------------------**
+Inspired by Batman.js typeOf util
 
-**UPD:** now it returns lowercased name of any javascript class.
+**UPD:** now it returns lowercased name of any javascript class. Thanks to @BallBearing for idea
 
 ## Usage:
 
