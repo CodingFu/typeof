@@ -4,7 +4,7 @@
   "description": "Node module. typeOf('a string') == 'string', typeOf([]) == 'array', etc..",
   "main": "index.js",
   "scripts": {
-    "test": "./node_modules/mocha/bin/mocha -R spec --compilers coffee:coffee-script test.coffee"
+    "test": "mocha -R spec --compilers coffee:coffee-script test.coffee"
   },
   "repository": {
     "type": "git",
