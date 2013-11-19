@@ -16,7 +16,8 @@
 
   "author": "Seva Rybakov",
   "license": "MIT",
-  "dependencies": {
+  "dependencies": {},
+  "devDependencies": {
     "coffee-script": "~1.4.0",
     "mocha": "~1.6.0",
     "assert": "~0.4.9"
