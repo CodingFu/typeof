@@ -1,7 +1,7 @@
 {
   "name": "typeof",
-  "version": "0.9.1",
-  "description": "Node module. typeOf('a string') == 'string', typeOf([]) == 'array', etc..",
+  "version": "1.0.0",
+  "description": "Node module. typeOf('a string') == 'string', typeOf([]) == 'array', etc.. Also supports named functions detections aka javascript classes",
   "main": "index.js",
   "scripts": {
     "test": "mocha -R spec --compilers coffee:coffee-script test.coffee"
