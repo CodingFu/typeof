@@ -46,5 +46,4 @@ describe 'type of', ->
       constructor: ->
 
     obj = new ClassName()
-    asert.equal (typeOf obj), "classname"
-    
+    assert.equal (typeOf obj), "classname"

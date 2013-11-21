@@ -4,7 +4,7 @@
   "description": "Node module. typeOf('a string') == 'string', typeOf([]) == 'array', etc..",
   "main": "index.js",
   "scripts": {
-    "test": "./node_modules/mocha/bin/mocha -R spec --compilers coffee:coffee-script test.coffee"
+    "test": "mocha -R spec --compilers coffee:coffee-script test.coffee"
   },
   "repository": {
     "type": "git",
@@ -16,7 +16,8 @@
 
   "author": "Seva Rybakov",
   "license": "MIT",
-  "dependencies": {
+  "dependencies": {},
+  "devDependencies": {
     "coffee-script": "~1.4.0",
     "mocha": "~1.6.0",
     "assert": "~0.4.9"
