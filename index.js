@@ -9,11 +9,10 @@ module.exports = function(object) {
   }
   
   if (object) {
-    type = object.constructor.name; 
+    type = toString.call(object.constructor.name);
   } else if (type === 'object') {
     type = toString.call(object).slice(8, -1);
   }
 
   return type.toLowerCase();
 }
-
